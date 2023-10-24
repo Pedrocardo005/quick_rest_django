@@ -1,0 +1,52 @@
+# Arquivos gerados pela execução do Django
+__pycache__/
+*.pyc
+*.pyo
+*.db.sqlite3
+db.sqlite3
+env/
+
+# Arquivos de migração do Django
+*.db
+
+# Diretório de mídia (conteúdo de mídia carregado pelos usuários)
+media/
+
+# Diretório de arquivos estáticos gerados pelo Django
+static/
+
+# Configuração local (use um arquivo .env ou outro método para configurar)
+.env
+
+# Dependências Python (geradas pelo virtualenv ou pip)
+__pycache__/
+bin/
+include/
+lib/
+lib64/
+libexec/
+share/
+
+# Diretórios de logs e arquivos de registro
+log/
+*.log
+
+# Diretório de dados de cache
+__pycache__/
+.cache/
+
+# Diretório de dados temporários
+__pycache__/
+.temp/
+
+# Diretório de dados compilados Python (se você usar Cython ou algo similar)
+__pycache__/
+.cython/
+
+# Diretório de saída de testes (por exemplo, pytest)
+__pycache__/
+.pytest_cache/
+
+# Arquivos de configuração do sistema (por exemplo, PyCharm)
+.idea/
+*.iml
