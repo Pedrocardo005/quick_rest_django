@@ -5,6 +5,7 @@ from tutorial.quickstart.serializers import UserSerializer, GroupSerializer
 
 # Create your views here.
 
+
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all().order_by('-date_joined')
     serializer_class = UserSerializer
